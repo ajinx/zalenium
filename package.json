@@ -1,0 +1,20 @@
+{
+  "name": "zalenium",
+  "version": "1.0.0",
+  "description": "Starts Zalenium inside github actions workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajinx/zalenium.git"
+  },
+  "keywords": [],
+  "author": "Ajinkya Deshmukh <jinkiestheone@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajinx/zalenium/issues"
+  },
+  "homepage": "https://github.com/ajinx/zalenium#readme"
+}
