@@ -1,5 +1,5 @@
 # zalenium V1
-Start Zalenium inside github actions workflow
+Start Zalenium inside github actions workflow.
 
 ## Zalenium :
       A flexible and scalable container based Selenium Grid with video recording, live preview, basic auth & dashboard.
