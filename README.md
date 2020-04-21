@@ -20,7 +20,7 @@ jobs:
     name: <Any name> 
     steps:
     - name: <e.g. Zalenium >
-      uses: ajinx/zalenium@v1
+      uses: ajinx/zalenium@v1.1
     - uses: actions/checkout@v2
     - run: npm ci  
     - name: <Any test job run name>
