@@ -1,3 +1,5 @@
+![CI](https://github.com/ajinx/zalenium/workflows/CI/badge.svg)
+
 # zalenium V1
 Start Zalenium inside github actions workflow.
 
