@@ -19,13 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     name: <Any name> 
     steps:
+    - uses: actions/checkout@v2
     - name: <e.g. Zalenium >
       uses: ajinx/zalenium@v1.1
-    - uses: actions/checkout@v2
-    - run: npm ci  
-    - name: <Any test job run name>
-      run: <Test execution command e.g. mvn test, npm test etc>
- 
+    - name: Run test
+      env:
+        SELENIUM_HUB_HOST: 'localhost'
+      run: <Test execution command e.g. mvn test, npm test, ./gradlew test etc> 
  ```
 In your test configuration, specify remote url as http://localhost:4444/wd/hub
 
