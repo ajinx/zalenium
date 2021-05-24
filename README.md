@@ -21,7 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: <e.g. Zalenium >
-      uses: ajinx/zalenium@v1.1
+      uses: ajinx/zalenium@1.1
     - name: Run test
       env:
         SELENIUM_HUB_HOST: 'localhost'
